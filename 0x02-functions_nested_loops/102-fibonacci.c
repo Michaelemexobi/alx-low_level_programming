@@ -9,20 +9,21 @@
  *
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-int n = 50;
-long long fib1 = 1, fib2 = 2, nextTerm;
+int term1 = 1;
+int term2 = 2;
+int next;
+int i;
 
-printf("%lld, %lld\n", fib1, fib2);
+printf("%d, ", term1);
 
-for (int i = 3; i <= n; i++)
+for (i = 1; i < 50; i++)
 {
-nextTerm = fib1 + fib2;
-printf("%lld, ", nextTerm);
-fib1 = fib2;
-fib2 = nextTerm;
+printf("%d", term2);
+next = term1 + term2;
+term1 = term2;
+term2 = next;
 }
 
 printf("\n");
