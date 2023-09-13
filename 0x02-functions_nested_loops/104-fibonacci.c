@@ -11,12 +11,15 @@ int i;
 for (i = 0; i < 100; i++)
 {
 next = first + second;
-printf("%llu, ", next);
+printf("%lu, ", next);
 first = second;
 second = next;
+if (i != 99)
+printf(", ");
 }
 
 printf("\n");
+
 
 return (0);
 }
