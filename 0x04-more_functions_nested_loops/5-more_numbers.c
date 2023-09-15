@@ -2,9 +2,9 @@
 
 /**
  * more_numbers - prints numbers from 0 to 14, ten times
-
  * Return: Always 0 success.
  */
+
 void more_numbers(void)
 {
 int i, j;
