@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+/**
+ * main - Entry point of code prints the largest prime
+ *        factor of the number 612852475143
+ * Return: 0 Always scuccessful
+ */
 int main(void)
 {
 long number = 612852475143;
